@@ -1,1 +1,1 @@
-# progressive-enhancement
+https://beardificent.github.io/progressive-enhancement/
