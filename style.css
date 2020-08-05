@@ -1,0 +1,37 @@
+
+html body{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+p{
+    font-family: Serif;
+    word-spacing: 3px;
+    color: darkred;
+
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: deeppink;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
