@@ -16,12 +16,11 @@ html body{
     padding: .5rem 1rem;
     border: 4px solid #DDDDCC;
     text-align: center;
-    text-shadow: 2px white;
     width: 250px;
     font-weight: bold;
     color: #070706;
     position: fixed;
-    bottom:0;
+    bottom: 100px;
     right:0;
 }
 
@@ -38,11 +37,12 @@ p{
 }
 
 .preamble{
-    margin-right: 5px;
+    margin-right: 50px;
     display: block;
 }
 
 .figure{
+    max-width: 50%;
     float: left;
 
 }
