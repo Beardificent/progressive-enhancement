@@ -42,14 +42,14 @@ p{
 }
 img{
     object-fit: contain;
-    width: 500px;
-    height: 335px;
+
 }
 .figure{
     display: block;
     float: left;
 
 }
+
 .article{
     float: left;
 }
