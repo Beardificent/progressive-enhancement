@@ -3,12 +3,18 @@ html body{
     width: 90%;
     height: 100%;
     margin: 0 auto;
+    background: -webkit-radial-gradient(rgb(213, 47, 248), rgb(250, 140, 227));
+    background: radial-gradient(rgb(213, 47, 248), rgb(250, 140, 227));
 
+
+}
+h1{
+    background-color: yellow;
 }
 
 p{
-    font-family: Serif;
-    word-spacing: 3px;
+    font-family: Serif, sans-serif;
+    word-spacing: 1em;
     color: darkred;
 
 }
@@ -34,4 +40,42 @@ a:hover {
 a:active {
     color: blue;
     text-decoration: none;
+}
+
+q{
+    display: block;
+    margin: 80px auto;
+    border: dashed 3px;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-right: hidden;
+    padding: 30px;
+    width: 50%;
+    font-size: 160%;
+    background-color: #aca8a8;
+    font-style: italic;
+}
+
+
+.farmer{
+    border-color: red;
+
+}
+
+.villager {
+    border-color: blue;
+}
+
+[value=good] {
+    text-transform: uppercase;
+    color: green;
+}
+
+[value=bad] {
+    text-transform: uppercase;
+    color: red;
+}
+
+tr:nth-child(odd) {
+    background-color: #aca8a8;
 }
