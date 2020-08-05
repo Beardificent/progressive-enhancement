@@ -37,13 +37,15 @@ p{
 }
 
 .preamble{
-    margin-right: 50px;
+    float: right;
     display: block;
 }
 
 .figure{
-    max-width: 50%;
+    display: block;
     float: left;
+    max-width: 100%;
+    height: auto;
 
 }
 .article{
