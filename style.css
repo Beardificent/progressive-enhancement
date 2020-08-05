@@ -5,10 +5,27 @@ html body{
     margin: 0 auto;
     background: -webkit-radial-gradient(rgb(213, 47, 248), rgb(250, 140, 227));
     background: radial-gradient(rgb(213, 47, 248), rgb(250, 140, 227));
+    font-family: 'Open Sans', sans-serif;
 
 
 }
-h1{
+
+.notification {
+    background-image: url(https://feestinjebeest.nl/wp-content/uploads/Charmander-Pokemon-onesie-pak-kostuum2.jpg);
+    background-size: 50%;
+    padding: .5rem 1rem;
+    border: 4px solid #DDDDCC;
+    text-align: center;
+    text-shadow: 2px white;
+    width: 250px;
+    font-weight: bold;
+    color: #070706;
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
+header h1{
     background-color: yellow;
 }
 
@@ -17,6 +34,20 @@ p{
     word-spacing: 1em;
     color: darkred;
 
+
+}
+
+.preamble{
+    margin-right: 5px;
+    display: block;
+}
+
+.figure{
+    float: left;
+
+}
+.article{
+    float: left;
 }
 
 a:link {
@@ -75,7 +106,21 @@ q{
     text-transform: uppercase;
     color: red;
 }
+.table{
+float: left;
+}
 
+table{
+    float: left
+}
 tr:nth-child(odd) {
     background-color: #aca8a8;
+}
+
+.conclusion {
+    float: left;
+}
+
+.footer{
+    float: left
 }
